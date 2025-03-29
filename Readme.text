@@ -1,1 +1,68 @@
-# this is a simple script for rename any tipe of images to PNG fomat 
+# this is a simple script for rename any type of images to PNG fomat 
+# Image Renamer to PNG
+
+This Python application allows users to select a folder containing images and rename them to a sequential PNG format. It supports various image formats such as `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.tiff`, and `.webp`, and converts them into PNG format while retaining a sequential naming pattern.
+
+## Features
+
+- Browse to select a folder containing image files.
+- Rename images in the folder to a base name with a sequential number (e.g., `image1.png`, `image2.png`).
+- Convert images to PNG format.
+- Supports multiple image formats such as `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.tiff`, `.webp`.
+- Shows progress and status in the UI.
+- Handles errors and shows a completion message.
+
+## Requirements
+
+- Python 3.x
+- `Pillow` library (used for image processing)
+- `tkinter` (for GUI)
+
+## Installation
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/Sadev-Hiruditha/Rename_IMG.git
+
+
+2. Install the required libraries:
+      pip install -r requirements.txt
+
+  ** Pillow library is required for image processing, and it can be installed using pip as shown above.
+
+
+
+3. Run the application:
+    python Main.py
+
+How to Use
+Launch the Application:
+
+Run the script, and the main GUI window will appear.
+
+Select a Folder:
+
+Click the Browse button to select a folder containing the images you want to rename.
+
+Enter a Base Name:
+
+Enter a base name that will be used for renaming the images (e.g., image).
+
+Rename Images:
+
+Click the Rename Images button to begin the renaming and conversion process. The images will be renamed in sequential order (e.g., image1.png, image2.png) and saved in the selected folder.
+
+Status:
+
+The status at the bottom will update to show the current progress.
+
+Once the process is completed, a message will appear informing you of how many images were successfully renamed and converted.
+
+Example Usage
+Select a folder containing images like .jpg, .jpeg, .png, etc.
+
+Enter a base name (e.g., "image").
+
+Click Rename Images to convert and rename all images in the folder to PNG format.
+
+
